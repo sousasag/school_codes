@@ -1,6 +1,4 @@
 #!/usr/bin/python
-## My first python code
-## To create the EW files for GAIA ESO Survey
 
 ##imports:
 import sys
@@ -95,10 +93,10 @@ def linear_fit(x,y):
   
 
 def plot_graphs(linesfe1,linesfe2):
-  ep=[float(line.split()[1]) for line in linesfe1]
-  rw=[float(line.split()[4]) for line in linesfe1]
-  ab=[float(line.split()[5]) for line in linesfe1]
-  ab2=[float(line.split()[5]) for line in linesfe2]
+  ep=[float(line.split()[2]) for line in linesfe1]
+  rw=[float(line.split()[5]) for line in linesfe1]
+  ab=[float(line.split()[6]) for line in linesfe1]
+  ab2=[float(line.split()[6]) for line in linesfe2]
   fig = plt.figure()
   ax1= fig.add_subplot(2,1,1)
   ax2= fig.add_subplot(2,1,2)
@@ -107,11 +105,13 @@ def plot_graphs(linesfe1,linesfe2):
   ax1.plot(ep[0], ab[0], marker="o",color='b',label=stringin)
   for i in range (1, len(ep)):
     ax1.plot(ep[i], ab[i], marker="o",color='b')
-  ax1.set_ylim([7,8])
+  ax1.set_ylim([7.02,8.52])
   ax1.set_xlim(0,max(ep))
   ax1.set_xlabel("E.P.")
   ax1.set_ylabel("Ab FeI")
   # plotting the line
+  
+
   (w,xline,line) = linear_fit(ep,ab)
 #  print w
   stringin='Slope: %.3f' % w[0]
@@ -121,7 +121,7 @@ def plot_graphs(linesfe1,linesfe2):
   for i in range (0, len(rw)):
     ax2.plot(rw[i], ab[i], marker="o",color='b')
   
-  ax2.set_ylim([7,8])
+  ax2.set_ylim([7.02,8.52])
   ax2.set_xlim(min(rw),max(rw))
   ax2.set_xlabel("R.W.")
   ax2.set_ylabel("Ab FeI")

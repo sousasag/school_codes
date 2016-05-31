@@ -3,3 +3,6 @@ MOOG2014/*.o
 MOOG2014/MOOGSILENT
 TMCALC/tmcalc
 TMCALC/tmcalc.o
+running_dir/a
+running_dir/interpol_moog.com
+
