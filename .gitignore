@@ -1,1 +1,5 @@
 intepol_models_marcs/marcs_models
+MOOG2014/*.o
+MOOG2014/MOOGSILENT
+TMCALC/tmcalc
+TMCALC/tmcalc.o
