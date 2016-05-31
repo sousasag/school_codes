@@ -1,0 +1,1424 @@
+gfortran -Wall   -c -o Abfind.o Abfind.f
+gfortran -Wall   -c -o Abpop.o Abpop.f
+gfortran -Wall   -c -o Abunplot.o Abunplot.f
+gfortran -Wall   -c -o Batom.o Batom.f
+Batom.f:105:72:
+
+      * 200020001, 200020011, 201620881, 231228281, 378953411,   10,      H  01
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:109:72:
+
+      * 100010001, 100010011, 102111241, 145022061, 363059451,   20,      He 02
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:113:72:
+
+      * 200020011, 201220481, 212922881, 258731081, 394251691,   30,      Li 03
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:117:72:
+
+      * 100010051, 104311441, 131615641, 190623681, 298037691,   40,      Be 04
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:121:72:
+
+      * 600060001, 600560281, 608761991, 637466191, 693973361,   50,      B  05
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:126:72:
+
+      * 893292271,  96110042, 105311262, 126315202, 196126432,   60,      C  06
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:130:72:
+
+      * 403141851, 457051681, 594071181,  92913362, 203331152,   70,      N  07
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:134:72:
+
+      * 874789691, 924795711,  99410492, 115213492, 169022242,   80,      O  08
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:138:72:
+
+      * 575958511, 589859231, 595860671, 636470031, 815199581,   90,      F  09
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:142:72:
+
+      * 100010001, 100010051, 105313051, 210239461,  74013022,  100,      Ne 10
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:147:72:
+
+      * 200020001, 200320211, 207322131, 253031421, 417657451,  110,      Na 11
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:151:72:
+
+      * 100010011, 101410621, 118414581, 204831781, 509479731,  120,      Mg 12
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:155:72:
+
+      * 558857701, 583558761, 593260591, 635969541, 796790971,  130,      Al 13
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:159:72:
+
+      * 825189211,  95210052, 106211532, 134317202, 237934082,  140,      Si 14
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:163:72:
+
+      * 402643441, 496757481, 658274401, 833492941, 103511532,  150,      P  15
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:168:72:
+
+      * 822887891, 930697831, 102610932, 121614492, 185124742,  160,     S  16
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:172:72:
+
+      * 538155931, 571657911, 598067191,  89013782, 227737172,  170,     Cl 17
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:176:72:
+
+      * 100010001, 100010051, 106913911, 240147261,  90716112,  180,     Ar 18
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:180:72:
+
+      * 200020011, 200720361, 211923291, 280137141, 525575741,  190,     K  19
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:184:72:
+
+      * 100110061, 104311741, 145919971, 294345051,  69010322,  200,     Ca 20
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:189:72:
+
+      * 924696691, 105212282, 151219062, 240530032, 368944512,  210,     Sc 21
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:193:72:
+
+      * 181021172, 260333222, 430155582, 710089242, 110213293,  220,     Ti 22
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:197:72:
+
+      * 272835172, 425851532, 632278322,  97212013, 146817723,  230,     V  23
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:201:72:
+
+      * 717277611,  92911652, 152620872, 295141952, 550468122,  240,     Cr 24
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:205:72:
+
+      * 600060321, 629270891,  86911302, 151020222, 267534752,  250,     Mn 25
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:210:72:
+
+      * 197023222, 274433302, 416753952, 723799822, 139419053,  260,     Fe 26
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:214:72:
+
+      * 199427202, 335740022, 474957182, 708090462, 118315403,  270,     Co 27
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:218:72:
+
+      * 227027622, 306233052, 356839222, 446052912, 652382292,  280,     Ni 28
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:222:72:
+
+      * 201620781, 231026761, 314737361, 450555381, 692386911,  290,     Cu 29
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:226:72:
+
+      * 100010001, 100410231, 108712611, 167124841, 388460411,  300,     Zn 30
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:231:72:
+
+      * 403245601, 493151431, 529654331, 559358091, 611065171,  310,     Ga 31
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:235:72:
+
+      * 502665261, 755183501, 901496201, 102410942, 117912812,  320,     Ge 32
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:239:72:
+
+      * 403143241, 491856701, 649173781, 840396751, 113013392,  330,     As 33
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:243:72:
+
+      * 630172361, 799686381, 919797221, 102810942, 117712832,  340,     Se 34
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:247:72:
+
+      * 437347431, 498951671, 538559501,  74710812, 169126672,  350,     Br 35
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:252:72:
+
+      * 100010001, 100010051, 105012781, 198535971,  65911422,  360,     Kr 36
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:256:72:
+
+      * 200020011, 200720361, 211523021, 269434141, 459163351,  370,     Rb 37
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:260:72:
+
+      * 100110041, 104111741, 146019721, 281941411, 607785251,  380,     Sr 38
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:264:72:
+
+      * 791587851, 100012192, 155119942, 254031782, 389946932,  390,     Y  39
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:268:72:
+
+      * 141320802, 291439702, 531170262,  92712273, 162521053,  400,     Zr 40
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:273:72:
+
+      * 256636022, 465759302, 749693962, 116514243, 171520333,  410,     Nb 41
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:277:72:
+
+      * 703972941,  82610822, 154822682, 327244912, 571469372,  420,     Mo 42
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:281:72:
+
+      *  90613732, 184823562, 291735332, 419949102, 565764332,  430,     Tc 43
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:285:72:
+
+      * 176824122, 318941082, 515263202, 761790472, 106112303,  440,     Ru 44
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:289:72:
+
+      * 148520202, 255230902, 364942462, 489656082, 638872352,  450,     Rh 45
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:294:72:
+
+      * 115919651, 320746011, 607576761,  95011642, 141817172,  460,     Pd 46
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:298:72:
+
+      * 200020001, 200220141, 206422141, 257633021, 455164681,  470,     Ag 47
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:302:72:
+
+      * 100010001, 100410241, 109212891, 176827421, 444268771,  480,     Cd 48
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:306:72:
+
+      * 252431921, 368440461, 433746521, 512259221, 723389021,  490,     In 49
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:310:72:
+
+      * 232637101, 488058571, 669074381, 816189091,  97210632,  500,     Sn 50
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:315:72:
+
+      * 404043481, 494656811, 646772781, 813490751, 101411372,  510,     Sb 51
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:319:72:
+
+      * 526258801, 657372351, 784284071, 897095741, 102711082,  520,     Te 52
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:323:72:
+
+      * 405342041, 438645621, 475751071, 587974491, 102214572,  530,     I  53
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:327:72:
+
+      * 100010001, 100010091, 109515351, 291060661, 119621482,  540,     Xe 54
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:331:72:
+
+      * 200020001, 201020501, 215623871, 283536181, 462756261,  550,     Cs 55
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:336:72:
+
+      * 101210791, 135119351, 282340571, 574580391, 111015062,  560,     Ba 56
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:340:72:
+
+      *  71111992, 172323592, 312540402, 510763182, 765791012,  570,     La 57
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:344:72:
+
+      * 295959132, 103515693, 215527593, 335939413, 449650223,  580,     Ce 58
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:348:72:
+
+      * 460693672, 158523823, 327242303, 519661563, 709379783,  590,     Pr 59
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:352:72:
+
+      * 139623042, 364860002,  96114603, 209828633, 373446973,  600,     Nd 60
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:357:72:
+
+      * 131720482, 280535692, 441254492, 676583972, 103412583,  610,     Pm 61
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:361:72:
+
+      *  92915672, 222431062, 444763802,  89612173, 159520253,  620,     Sm 62
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:365:72:
+
+      * 800080571, 851699301, 127617362, 240433032, 444958442,  630,     Eu 63
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:369:72:
+
+      * 240432982, 427555202, 708489962, 112613853, 167319843,  640,     Gd 64
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:373:72:
+
+      * 480767202,  89011393, 144118243, 230028753, 354142883,  650,     Yb 65
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:378:72:
+
+      * 343147532, 645887152, 115314793, 183322063, 257729373,  660,     Dy 66
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:382:72:
+
+      * 222635002, 542276772, 100312353, 145716713, 187020703,  670,     Ho 67
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:386:72:
+
+      * 133715382, 209130152, 429859382,  79410293, 129815983,  680,     Er 68
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:390:72:
+
+      * 800381111,  87510702, 147621462, 310343462, 585475982,  690,     Tm 69
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:394:72:
+
+      * 100010011, 101310651, 118613951, 169120661, 250629971,  700,     Yb 70
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:399:72:
+
+      * 514664441, 759086851,  99211442, 133315612, 182721252,  710,     Lu 71
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:403:72:
+
+      * 659294081, 128016962, 222528952, 372047062, 585171462,  720,     Hf 72
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:407:72:
+
+      *  65210892, 171325762, 373552252, 705192012, 116414343,  730,     Ta 73
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:411:72:
+
+      * 398981651, 130019172, 273438022, 516168382,  88411163,  740,     Wl 74
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:415:72:
+
+      * 600963001,  75910412, 150121572, 301940972, 539168952,  750,     Re 75
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:420:72:
+
+      * 110815502, 216829732, 398752322, 672484682, 104612673,  760,     Os 76
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:424:72:
+
+      * 129117892, 239430882, 388748292, 596173252,  89510843,  770,     Ir 77
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:428:72:
+
+      * 158918512, 207523002, 254328242, 316335762, 407246582,  780,     Pt 78
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:432:72:
+
+      * 203222611, 265731251, 364042301, 494958601, 702084731,  790,     Au 79
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:436:72:
+
+      * 100010001, 100110111, 105211851, 152122101, 341552811,  800,     Hg 80
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:441:72:
+
+      * 200420711, 222424271, 265429161, 325637371, 442853911,  810,     Tl 81
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:445:72:
+
+      * 103411711, 147819101, 244331781, 434862751,  93113762,  820,     Pb 82
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:449:72:
+
+      * 400140351, 416944121, 474851591, 564362181, 690477231,  830,     Bi 83
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:453:72:
+
+      * 500950661, 518153561, 559058941, 628968071, 748483501,  840,     Po 84
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:457:72:
+
+      * 402841621, 431544771, 463148311, 520059491, 734896851,  850,     At 85
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:462:72:
+
+      * 100010001, 100010031, 102311051, 133018071, 264539391,  860,     Rn 86
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:466:72:
+
+      * 200020011, 201220591, 218124481, 296538611, 488859141,  870,     Fr 87
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:470:72:
+
+      * 100010041, 105212131, 153220271, 270435641, 460258111,  880,     Ra 88
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:474:72:
+
+      * 510064491,  82710872, 142718412, 232328712, 348341572,  890,     Ac 89
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:478:72:
+
+      * 620099241, 162725772, 391457072,  80110833, 141818023,  900,     Th 90
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:483:72:
+
+      * 347877992, 129318323, 240730533, 380546863, 570368573,  910,     Pa 91
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:487:72:
+
+      * 209530092, 450866762,  96613623, 186524763, 318839893,  920,     U  92
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:491:72:
+
+      * 209530092, 450866762,  96613623, 186524763, 318839893,  930,     Np 93
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:495:72:
+
+      * 209530092, 450866762,  96613623, 186524763, 318839893,  940,     Pu 94
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:499:72:
+
+      * 209530092, 450866762,  96613623, 186524763, 318839893,  950,     Am 95
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:511:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Be 04
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:512:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    O  08
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:513:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Mg 12
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:514:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    S  16
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:515:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Ca 20
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:516:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, 01,  0,  0,    Cr 24
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:517:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Ni 28
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:518:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Ge 32
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:519:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Kr 36
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:520:72:
+
+      . 02,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0/    Zr 40
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:522:72:
+
+      .  0,  0,  0,  0,  0, 03,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Ru 44
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:523:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Cd 48
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:524:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Te 52
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:525:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Ba 56
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:526:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0, 04, 05,  0,  0, 06, 07,  0,  0,    Nd 60
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:527:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, 21,  0, 08,  0,  0,  0,    Gd 64
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:528:72:
+
+      . 09, 10, 22,  0, 11, 12, 23,  0,  0, 13, 24,  0, 14, 15, 25,  0,    Er 68
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:529:72:
+
+      .  0,  0,  0,  0, 16,  0,  0,  0,  0, 17,  0,  0,  0,  0,  0,  0,    Hf 72
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:530:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Os 76
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:531:72:
+
+      .  0, 28,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0/    Hg 80
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:533:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Po 84
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:534:72:
+
+      .  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,    Ra 88
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Batom.f:535:72:
+
+      .  0,  0,  0,  0, 18, 19, 26,  0,  0,  0,  0,  0,  0, 20, 27,  0,    U  92
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+gfortran -Wall   -c -o Begin.o Begin.f
+gfortran -Wall   -c -o Binary.o Binary.f
+Binary.f:37:24:
+
+                pec(i) = binpec(syncount,i)
+                        1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Binary.f:166:30:
+
+                      pec(i) = binpec(syncount,i)
+                              1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Binplot.o Binplot.f
+gfortran -Wall   -c -o Binplotprep.o Binplotprep.f
+Binplotprep.f:120:16:
+
+          z(i) = (1.0 - z(i))/lumratio
+                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Binplotprep.f:128:21:
+
+             dev(i) = (y(i)+z(i-pshift))/normalization
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Binplotprep.f:132:21:
+
+             dev(i) = (y(i)+z(i))/normalization
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Binplotprep.f:136:21:
+
+             dev(i) = (y(i)+z(i-pshift))/normalization
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Blankstring.o Blankstring.f
+gfortran -Wall   -c -o Blends.o Blends.f
+gfortran -Wall   -c -o Bmolec.o Bmolec.f
+gfortran -Wall   -c -o Boxit.o Boxit.f
+gfortran -Wall   -c -o Calmod.o Calmod.f
+gfortran -Wall   -c -o Cdcalc.o Cdcalc.f
+gfortran -Wall   -c -o Chabund.o Chabund.f
+gfortran -Wall   -c -o Cog.o Cog.f
+gfortran -Wall   -c -o Cogplot.o Cogplot.f
+gfortran -Wall   -c -o Cogsyn.o Cogsyn.f
+gfortran -Wall   -c -o Correl.o Correl.f
+Correl.f:89:16:
+
+       corrmax = spy(1)
+                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:93:22:
+
+             corrmax = spy(i)
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:104:13:
+
+          q = spx(mc-1) + (j-1)/10.
+             1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:114:16:
+
+       corrmax = yinterp(1)
+                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:118:22:
+
+             corrmax = yinterp(j)
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:119:23:
+
+             shiftmax = xinterp(j)
+                       1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:125:18:
+
+       deltawave = -step*shiftmax
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Correl.f:126:17:
+
+       deltavel = -3.0d5*step*shiftmax/wavecenter
+                 1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Crosscorr.o Crosscorr.f
+gfortran -Wall   -c -o Curve.o Curve.f
+Curve.f:74:4:
+
+ 1004  format (10f7.3)
+    1
+Warning: Label 1004 at (1) defined but not used
+Curve.f:55:14:
+
+       iatom = atom1(lim1)
+              1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Damping.o Damping.f
+gfortran -Wall   -c -o Defcolor.o Defcolor.f
+Defcolor.f:2:33:
+
+       subroutine defcolor (icolor)
+                                 1
+Warning: Unused dummy argument ‘icolor’ at (1) [-Wunused-dummy-argument]
+gfortran -Wall   -c -o Discov.o Discov.f
+Discov.f:12:11:
+
+       im = amol                                                         
+           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Doflux.o Doflux.f
+gfortran -Wall   -c -o Drawcurs.o Drawcurs.f
+gfortran -Wall   -c -o Eqlib.o Eqlib.f
+Eqlib.f:48:21:
+
+             iatom1 = amol(jmol) + 0.0001
+                     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Eqlib.f:53:20:
+
+                it = ti
+                    1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Eqlib.f:185:21:
+
+             iatom1 = atom                                           
+                     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Estim.o Estim.f
+gfortran -Wall   -c -o Ewfind.o Ewfind.f
+Ewfind.f:211:4:
+
+ 1017           format (5x, 'C_d weighted mean formation tau(ref) =',
+    1
+Warning: Label 1017 at (1) defined but not used
+Ewfind.f:209:4:
+
+ 1016           format (7x,'  NOTE: line center tau(line) < 1',
+    1
+Warning: Label 1016 at (1) defined but not used
+Ewfind.f:207:4:
+
+ 1015           format (5x, 'tau(ref) =', 1pe10.2,
+    1
+Warning: Label 1015 at (1) defined but not used
+Ewfind.f:205:4:
+
+ 1014           format (5x, 'tau(ref) =', 1pe10.2,
+    1
+Warning: Label 1014 at (1) defined but not used
+Ewfind.f:203:4:
+
+ 1013           format (5x, 'tau(ref) =', 1pe10.2,
+    1
+Warning: Label 1013 at (1) defined but not used
+Ewfind.f:84:17:
+
+          iatom = atom1(lim1)
+                 1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Ewfind.f:90:0:
+
+             xab = dlog10(xabund(iabtom)) + 12.
+ ^
+Warning: ‘iabtom’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+gfortran -Wall   -c -o Ewweighted.o Ewweighted.f
+gfortran -Wall   -c -o Fakeline.o Fakeline.f
+Fakeline.f:23:19:
+
+       iatom      = atom1(1)
+                   1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Findtic.o Findtic.f
+Findtic.f:18:18:
+
+          bigtic = 10.**(size)/2
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Findtic.f:21:18:
+
+          bigtic = 10.**(size)
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Findtic.f:24:18:
+
+          bigtic = 10.**(size)*2
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Finish.o Finish.f
+gfortran -Wall   -c -o Fluxplot.o Fluxplot.f
+gfortran -Wall   -c -o Gammabark.o Gammabark.f
+gfortran -Wall   -c -o Getasci.o Getasci.f
+gfortran -Wall   -c -o Getcount.o Getcount.f
+gfortran -Wall   -c -o Getnum.o Getnum.f
+gfortran -Wall   -c -o Getsyns.o Getsyns.f
+gfortran -Wall   -c -o Gridplo.o Gridplo.f
+gfortran -Wall   -c -o Gridsyn.o Gridsyn.f
+gfortran -Wall   -c -o Infile.o Infile.f
+gfortran -Wall   -c -o Inlines.o Inlines.f
+Inlines.f:63:19:
+
+             iiso = isotope(i)
+                   1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Inlines.f:97:20:
+
+             iatom = satom1(j)
+                    1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Inlines.f:121:14:
+
+       iatom = atom1(j)
+              1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Inlines.f:198:17:
+
+          iatom = atom1(j)
+                 1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Inlines.f:212:22:
+
+                mas1 = xam(ia) + 0.0000001
+                      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Inlines.f:213:22:
+
+                mas2 = xam(ib) + 0.0000001
+                      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Inmodel.o Inmodel.f
+Inmodel.f:326:72:
+
+          numdens(1,1,i) = xamol(1,i)                                    H I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:327:72:
+
+          numdens(1,2,i) = xmol(1,i)                                     H II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:328:72:
+
+          numdens(2,1,i) = xamol(2,i)                                    He I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:329:72:
+
+          numdens(2,2,i) = xmol(2,i)                                     Hi II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:330:72:
+
+          numdens(3,1,i) = xamol(3,i)                                    C I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:331:72:
+
+          numdens(3,2,i) = xmol(3,i)                                     C II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:332:72:
+
+          numdens(4,1,i) = xamol(6,i)                                    Mg I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:333:72:
+
+          numdens(4,2,i) = xmol(6,i)                                     Mg II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:334:72:
+
+          numdens(5,1,i) = xamol(7,i)                                    Al I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:335:72:
+
+          numdens(5,2,i) = xmol(7,i)                                     Al II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:336:72:
+
+          numdens(6,1,i) = xamol(8,i)                                    Si I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:337:72:
+
+          numdens(6,2,i) = xmol(8,i)                                     Si II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:338:72:
+
+          numdens(7,1,i) = xamol(16,i)                                   Fe I
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:339:72:
+
+          numdens(7,2,i) = xmol(16,i)                                    Fe II
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+Inmodel.f:340:72:
+
+          numdens(8,1,i) = xmol(17,i)                                    H_2
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+gfortran -Wall   -c -o Invert.o Invert.f
+gfortran -Wall   -c -o Jexpint.o Jexpint.f
+Jexpint.f:82:8:
+
+   300 i=xm+.5
+        1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Lineinfo.o Lineinfo.f
+gfortran -Wall   -c -o Lineabund.o Lineabund.f
+gfortran -Wall   -c -o Linlimit.o Linlimit.f
+gfortran -Wall   -c -o Makeplot.o Makeplot.f
+Makeplot.f:2:34:
+
+       subroutine makeplot (lscreen)
+                                  1
+Warning: Unused dummy argument ‘lscreen’ at (1) [-Wunused-dummy-argument]
+gfortran -Wall   -c -o Minimax.o Minimax.f
+Minimax.f:6:11:
+
+       xmax=x(1)
+           1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Minimax.f:9:32:
+
+          if (x(i).lt.xmin) xmin=x(i)
+                                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Minimax.f:10:32:
+
+          if (x(i).gt.xmax) xmax=x(i)
+                                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Molquery.o Molquery.f
+Molquery.f:67:0:
+
+             call getnum (nchars,ikount+1,xnum,shortnum)
+ ^
+Warning: ‘ikount’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+gfortran -Wall   -c -o Moogsilent.o Moogsilent.f
+gfortran -Wall   -c -o Mydriver.o Mydriver.f
+gfortran -Wall   -c -o Nansi.o Nansi.f
+Nansi.f:14:27:
+
+        istat = ivwrite(y,x,blank,79)
+                           1
+Warning: Character length of actual argument shorter than of dummy argument ‘arr’ (79/80) at (1)
+gfortran -Wall   -c -o Nearly.o Nearly.f
+Nearly.f:59:17:
+
+          iatom = atom1(j) + 0.0001
+                 1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Number.o Number.f
+gfortran -Wall   -c -o Obshead.o Obshead.f
+gfortran -Wall   -c -o Oneline.o Oneline.f
+Oneline.f:178:4:
+
+ 1011  format ('original and final wavelength step size: ', 2f8.4)
+    1
+Warning: Label 1011 at (1) defined but not used
+gfortran -Wall   -c -o Opaccouls.o Opaccouls.f
+Opaccouls.f:71:13:
+
+          i = elog/0.02
+             1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o OpacHelium.o OpacHelium.f
+gfortran -Wall   -c -o OpacHydrogen.o OpacHydrogen.f
+OpacHydrogen.f:110:72:
+
+      ..0178,.0222,.0308,.0402,.0498,.0596,.0695,.0795,.0896, .131, .172,   1823
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:111:72:
+
+      ..0228,.0280,.0388,.0499,.0614,.0732,.0851,.0972, .110, .160, .211,   2278
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:112:72:
+
+      ..0277,.0342,.0476,.0615,.0760,.0908, .105, .121, .136, .199, .262,   2604
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:113:72:
+
+      ..0364,.0447,.0616,.0789,.0966, .114, .132, .150, .169, .243, .318,   3038
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:114:72:
+
+      ..0520,.0633,.0859, .108, .131, .154, .178, .201, .225, .321, .418,   3645
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:115:72:
+
+      ..0791,.0959, .129, .161, .194, .227, .260, .293, .327, .463, .602,   4557
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:116:72:
+
+      ..0965, .117, .157, .195, .234, .272, .311, .351, .390, .549, .711,   5063
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:117:72:
+
+      . .121, .146, .195, .241, .288, .334, .381, .428, .475, .667, .861,   5696
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:118:72:
+
+      . .154, .188, .249, .309, .367, .424, .482, .539, .597, .830, 1.07,   6510
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:119:72:
+
+      . .208, .250, .332, .409, .484, .557, .630, .702, .774, 1.06, 1.36,   7595
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:120:72:
+
+      . .293, .354, .468, .576, .677, .777, .874, .969, 1.06, 1.45, 1.83/   9113
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:122:72:
+
+      . .358, .432, .572, .702, .825, .943, 1.06, 1.17, 1.28, 1.73, 2.17,  10126
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:123:72:
+
+      . .448, .539, .711, .871, 1.02, 1.16, 1.29, 1.43, 1.57, 2.09, 2.60,  11392
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:124:72:
+
+      . .579, .699, .924, 1.13, 1.33, 1.51, 1.69, 1.86, 2.02, 2.67, 3.31,  13019
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:125:72:
+
+      . .781, .940, 1.24, 1.52, 1.78, 2.02, 2.26, 2.48, 2.69, 3.52, 4.31,  15189
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:126:72:
+
+      . 1.11, 1.34, 1.77, 2.17, 2.53, 2.87, 3.20, 3.51, 3.80, 4.92, 5.97,  18227
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:127:72:
+
+      . 1.73, 2.08, 2.74, 3.37, 3.90, 4.50, 5.01, 5.50, 5.95, 7.59, 9.06,  22784
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:128:72:
+
+      . 3.04, 3.65, 4.80, 5.86, 6.86, 7.79, 8.67, 9.50, 10.3, 13.2, 15.6,  30378
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:129:72:
+
+      . 6.79, 8.16, 10.7, 13.1, 15.3, 17.4, 19.4, 21.2, 23.0, 29.5, 35.0,  45567
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:130:72:
+
+      . 27.0, 32.4, 42.6, 51.9, 60.7, 68.9, 76.8, 84.2, 91.4, 117., 140.,  91134
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:131:72:
+
+      . 42.3, 50.6, 66.4, 80.8, 94.5, 107., 120., 131., 142., 183., 219., 113918
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:132:72:
+
+      . 75.1, 90.0, 118., 144., 168., 191., 212., 234., 253., 325., 388./ 151890
+                                                                        1
+Warning: Line truncated at (1) [-Wline-truncation]
+OpacHydrogen.f:162:48:
+
+          call linter (wfflog,fflog(1,itheta),22,wavelog,fftlog,1)
+                                                1
+Warning: Rank mismatch in argument ‘xnew’ at (1) (rank-1 and scalar)
+OpacHydrogen.f:167:45:
+
+      .              maxwave = map1(wbf,bf,85,wave,hminbf,1) 
+                                             1
+Warning: Rank mismatch in argument ‘xnew’ at (1) (rank-1 and scalar)
+gfortran -Wall   -c -o Opacit.o Opacit.f
+gfortran -Wall   -c -o Opacmetals.o Opacmetals.f
+gfortran -Wall   -c -o Opacscat.o Opacscat.f
+gfortran -Wall   -c -o Params.o Params.f
+Params.f:426:24:
+
+                veladd = 3.0d5*xadd/((xlo+xhi)/2.)
+                        1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Partfn.o Partfn.f
+gfortran -Wall   -c -o Partnew.o Partnew.f
+gfortran -Wall   -c -o Plotit.o Plotit.f
+gfortran -Wall   -c -o Plotremember.o Plotremember.f
+Plotremember.f:19:24:
+
+             xlo       = oldstart
+                        1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Plotremember.f:20:24:
+
+             xhi       = oldstop
+                        1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Pltabun.o Pltabun.f
+gfortran -Wall   -c -o Pltcog.o Pltcog.f
+gfortran -Wall   -c -o Pltflux.o Pltflux.f
+gfortran -Wall   -c -o Pltspec.o Pltspec.f
+Pltspec.f:65:25:
+
+                xobs(i) = vfactor*xobs(i)
+                         1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:71:28:
+
+                   xobs(i) = vfactor*xobs(i)
+                            1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:85:21:
+
+                xlo = start
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:86:21:
+
+                xhi = sstop
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:88:24:
+
+                   xlo = 1.d-4*xlo
+                        1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:89:24:
+
+                   xhi = 1.d-4*xhi
+                        1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:119:18:
+
+             xlo = start
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:120:18:
+
+             xhi = sstop
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:122:21:
+
+                xlo = 1.d-4*xlo
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:123:21:
+
+                xhi = 1.d-4*xhi
+                     1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:161:18:
+
+          veladd = veladd + wfactor*2.99795d+5
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:164:22:
+
+             xobs(i) = vfactor*xobs(i)
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:177:22:
+
+             xobs(i) = vfactor*xobs(i)
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:216:18:
+
+             xlo = 1.d-4*xlo
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:217:18:
+
+             xhi = 1.d-4*xhi
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:254:15:
+
+          xlo = start
+               1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:255:15:
+
+          xhi = sstop
+               1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:257:18:
+
+             xlo = 1.d-4*xlo
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Pltspec.f:258:18:
+
+             xhi = 1.d-4*xhi
+                  1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Pointcurs.o Pointcurs.f
+gfortran -Wall   -c -o Prinfo.o Prinfo.f
+gfortran -Wall   -c -o Putasci.o Putasci.f
+gfortran -Wall   -c -o Readobs.o Readobs.f
+Readobs.f:69:29:
+
+                yobs(ipt+k) = bzero + bscale*real(int2(k))
+                             1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Readobs.f:84:29:
+
+                yobs(ipt+k) = bzero + bscale*real(int4(k))
+                             1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Readobs.f:108:19:
+
+          yobs(j) = yobs(j)*contnorm
+                   1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Readobs.f:177:19:
+
+          yobs(j) = yobs(j)*contnorm
+                   1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Rinteg.o Rinteg.f
+gfortran -Wall   -c -o Smooth.o Smooth.f
+Smooth.f:368:22:
+
+                z(i) = prot0*y(i)
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:370:25:
+
+                   z(i) = z(i) + prot(j)*(y(i-j) + y(i+j))
+                         1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:372:22:
+
+                z(i) = z(i)/powerrot
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:391:25:
+
+                   z(i) = z(i) + pmac(j)*(y(i-j) + y(i+j))
+                         1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:393:22:
+
+                z(i) = z(i)/powermac
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:413:25:
+
+                   z(i) = z(i) + p(j)*(y(i-j) + y(i+j))
+                         1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:415:22:
+
+                z(i) = z(i)/power
+                      1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:434:25:
+
+                xsyn(i) = 1.d-4*(start + (i-1)*step)
+                         1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Smooth.f:438:25:
+
+                xsyn(i) = start + (i-1)*step
+                         1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Specplot.o Specplot.f
+gfortran -Wall   -c -o Stats.o Stats.f
+gfortran -Wall   -c -o Sunder.o Sunder.f
+Sunder.f:11:11:
+
+       im = amol                                
+           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Synpop.o Synpop.f
+Synpop.f:288:4:
+
+ 1015  format (6f13.5)
+    1
+Warning: Label 1015 at (1) defined but not used
+Synpop.f:285:4:
+
+ 1012  format ('NO DECLARED SPECIAL ISOTOPES')
+    1
+Warning: Label 1012 at (1) defined but not used
+Synpop.f:284:4:
+
+ 1011  format ('SPECIAL ISOTOPE NAMES'/((5f10.5)))
+    1
+Warning: Label 1011 at (1) defined but not used
+Synpop.f:283:4:
+
+ 1010  format ('NO DECLARED SPECIAL ELEMENTS')
+    1
+Warning: Label 1010 at (1) defined but not used
+Synpop.f:282:4:
+
+ 1009  format ('SPECIAL ELEMENTS OR NAMES OF ISOTOPES'/(10i8))
+    1
+Warning: Label 1009 at (1) defined but not used
+Synpop.f:280:4:
+
+ 1006  format (i3, 1x, f8.0, 2f8.2, 10f6.2)
+    1
+Warning: Label 1006 at (1) defined but not used
+Synpop.f:278:4:
+
+ 1005  format ('#models =', i3, 5x, 'total weight =', f7.2//
+    1
+Warning: Label 1005 at (1) defined but not used
+Synpop.f:277:4:
+
+ 1004  format (a30, 2x, a10, 3f8.0)
+    1
+Warning: Label 1004 at (1) defined but not used
+Synpop.f:275:4:
+
+ 1002  format ('POPULATION SYNTHESIS FOR INTEGRATED-LIGHT SPECTRA'/a80)
+    1
+Warning: Label 1002 at (1) defined but not used
+gfortran -Wall   -c -o Synspec.o Synspec.f
+Synspec.f:25:18:
+
+          npoint = (sstop-start)/step
+                  1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Synth.o Synth.f
+gfortran -Wall   -c -o Tablepop.o Tablepop.f
+Tablepop.f:113:0:
+
+                      write (nf7out,1006) j, radius(mmmod), 
+ ^
+Warning: ‘mmmod’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+gfortran -Wall   -c -o Taukap.o Taukap.f
+gfortran -Wall   -c -o Total.o Total.f
+Total.f:17:15:
+
+       ntotal = (sstop - start)/step + 1.3
+               1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Trudamp.o Trudamp.f
+Trudamp.f:150:4:
+
+ 1004  format(//' LINE BROADENING PARAMETERS FOR ',
+    1
+Warning: Label 1004 at (1) defined but not used
+Trudamp.f:46:18:
+
+             nhe = xabund(2)*nhtot(i)
+                  1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Trudamp.f:66:18:
+
+             nhe = xabund(2)*nhtot(i)
+                  1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+Trudamp.f:25:0:
+
+       if (iatom.eq.201 .and. iwave.eq.3933) then
+ ^
+Warning: ‘iatom’ is used uninitialized in this function [-Wuninitialized]
+Trudamp.f:31:0:
+
+             gammadamp = anature + gvander + gstark
+ ^
+Warning: ‘anature’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+gfortran -Wall   -c -o Ucalc.o Ucalc.f
+Ucalc.f:51:15:
+
+          kp1 = p1                              
+               1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Vargauss.o Vargauss.f
+Vargauss.f:167:16:
+
+          z(i) = p0*y(i)
+                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Vargauss.f:169:19:
+
+             z(i) = z(i) + p(k)*(y(i-k) + y(i+k))
+                   1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Vargauss.f:171:16:
+
+          z(i) = z(i)/power
+                1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+Vargauss.f:185:19:
+
+          xsyn(i) = start + (i-1)*step
+                   1
+Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]
+gfortran -Wall   -c -o Vmacro.o Vmacro.f
+gfortran -Wall   -c -o Voigt.o Voigt.f
+gfortran -Wall   -c -o Wavecalc.o Wavecalc.f
+gfortran -Wall   -c -o Weedout.o Weedout.f
+gfortran -Wall   -c -o Writenumber.o Writenumber.f
+gfortran -Wall Abfind.o Abpop.o Abunplot.o Batom.o Begin.o Binary.o Binplot.o Binplotprep.o Blankstring.o Blends.o Bmolec.o Boxit.o Calmod.o Cdcalc.o Chabund.o Cog.o Cogplot.o Cogsyn.o Correl.o Crosscorr.o Curve.o Damping.o Defcolor.o Discov.o Doflux.o Drawcurs.o Eqlib.o Estim.o Ewfind.o Ewweighted.o Fakeline.o Findtic.o Finish.o Fluxplot.o Gammabark.o Getasci.o Getcount.o Getnum.o Getsyns.o Gridplo.o Gridsyn.o Infile.o Inlines.o Inmodel.o Invert.o Jexpint.o Lineinfo.o Lineabund.o Linlimit.o Makeplot.o Minimax.o Molquery.o Moogsilent.o Mydriver.o Nansi.o Nearly.o Number.o Obshead.o Oneline.o Opaccouls.o OpacHelium.o OpacHydrogen.o Opacit.o Opacmetals.o Opacscat.o Params.o Partfn.o Partnew.o Plotit.o Plotremember.o Pltabun.o Pltcog.o Pltflux.o Pltspec.o Pointcurs.o Prinfo.o Putasci.o Readobs.o Rinteg.o Smooth.o Specplot.o Stats.o Sunder.o Synpop.o Synspec.o Synth.o Tablepop.o Taukap.o Total.o Trudamp.o Ucalc.o Vargauss.o Vmacro.o Voigt.o Wavecalc.o Weedout.o Writenumber.o -o MOOGSILENT 
+-----------------------------------------------------------------
+
+make sure that you have entered the proper parameters
+for MOOGSILENT into the FORTRAN source driver
+routine Moogsilent.f !!!!!!!!!!!!
+
+NOTE: the isotop driver has been eliminated
+your synthesis needs for elemental and isotopic
+abundances now can be handled with the synth driver
+
+-----------------------------------------------------------------
