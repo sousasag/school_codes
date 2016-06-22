@@ -1,0 +1,6 @@
+cat interpol_marcs_moog_base.cpp | sed s@"PATHIN"@"/home/sousasag/Programas/GIT_projects/SPECPAR/interpol_models_marcs"@g > interpol_marcs_moog.cpp
+cat interpol_template_base.com | sed s@"PATHIN"@"/home/sousasag/Programas/GIT_projects/SPECPAR/interpol_models_marcs"@g > interpol_template.com
+gfortran -o interpol_modeles interpol_modeles_mine.f
+g++ -o interpol_marcs interpol_marcs_moog.cpp
+cat make_model_marcs_base.bash | sed s@"path"@"/home/sousasag/Programas/GIT_projects/SPECPAR/interpol_models_marcs"@g > make_model_marcs.bash
+chmod 777 make_model_marcs.bash

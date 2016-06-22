@@ -1,0 +1,27 @@
+The c++ codes uses the models downloaded from http://marcs.astro.uu.se/
+
+The grid of model is not complete. The c++ codes trys to find replacement models for the interpolation where the close model does not exists.
+
+Before compiling the codes check paths:
+
+interpol_marcs_moog.cpp:
+	line 55 for model path. 
+	line 291 for template script
+interpol_template.com
+	line 29 PATH for models folders 
+	line 59 PATH for the location of the interpolation code
+
+
+The fortran interpolation code was modified to change the format of output file 2 (for MOOG)
+
+Compilation of the codes:
+#use g95 or ifort for fortran code:
+g95 -o interpol_modeles interpol_modeles_mine.f
+
+#use g++ for c++ code:
+g++ -o interpol_marcs interpol_marcs_moog.cpp
+
+OUTPUT to be used on MOOG: out_marcs.atm
+
+
+NOTE: it is required the csh or tcsh installed in the system

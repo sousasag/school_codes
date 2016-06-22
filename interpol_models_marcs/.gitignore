@@ -1,4 +1,9 @@
 # Ignore everything in this directory
-*
 # Except this file
-!.gitignore
+marcs_models
+marcs_models.tar
+interpol_marcs_moog.cpp
+interpol_template.com
+make_model_marcs.bash
+out_marcs.atm
+interpol_moog.com
