@@ -24,7 +24,7 @@ Some useful codes for teaching spectroscopic stellar parameters
 Simply clone the repository:
 
 ```
-git clone https://github.com/sousasag/school_codes
+git clone --recursive https://github.com/sousasag/school_codes
 ```
 
 To make the interpolation of the codes you need the grid of MARCS models with can be downloaded and extracted by:
