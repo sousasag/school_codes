@@ -30,6 +30,7 @@ git clone --recursive https://github.com/sousasag/school_codes
 To make the interpolation of the codes you need the grid of MARCS models with can be downloaded and extracted by:
 
 ```
+cd school_codes
 wget www.astro.up.pt/~sousasag/xpto123/marcs_models.tar
 mv marcs_models.tar interpol_models_marcs
 cd interpol_models_marcs
