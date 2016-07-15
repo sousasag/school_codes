@@ -83,7 +83,7 @@ For ARES:
 All of these are easily installed in many Linux flavour systems with the use of
 the respective repositories. As an example for UBUNTU:
 ```
-sudo apt-get install libcfitsio3-dev gcc libgsl0-dev plotutils gnuplot
+sudo apt-get install libcfitsio3-dev gcc libgsl0-dev plotutils gnuplot g++
 ```
 
 For TMCALC you need to also have `cython` installed if you want to create a
