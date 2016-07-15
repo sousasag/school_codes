@@ -27,7 +27,8 @@ Simply clone the repository:
 git clone --recursive https://github.com/sousasag/school_codes
 ```
 
-To make the interpolation of the codes you need the grid of MARCS models with can be downloaded and extracted by:
+To make the interpolation of the codes you need the grid of MARCS models with
+can be downloaded and extracted by:
 
 ```
 cd school_codes
@@ -38,6 +39,9 @@ tar xvf marcs_models.tar
 rm marcs_models.tar
 cd ..
 ```
+
+Before compiling the codes, make sure to edit line 22 of
+`MOOG2014/Moogsilent.f`, so it match your PATH.
 
 Compile the codes:
 
@@ -56,14 +60,17 @@ make clean
 
 [IRAF](http://iraf.noao.edu/)
 
-There are several ways to install IRAF on your system.
-One that has been easy to use recently and is recommended is with [Ureka](http://ssb.stsci.edu/ureka/)
+There are several ways to install IRAF on your system. One that has been easy to
+use recently and is recommended is with [Ureka](http://ssb.stsci.edu/ureka/)
 
 ## Requirements
 
-These codes were implemented to be used in Linux machines. Each one of those are there own requirements. Here is the list of some of the requirements that you need to install these codes:
+These codes were implemented to be used in Linux machines. Each one of those are
+there own requirements. Here is the list of some of the requirements that you
+need to install these codes:
 
-Python for the scripts provided. Some typical modules should be available: sys, re, numpy, matplotlib
+Python for the scripts provided. Some typical modules should be available: re,
+numpy, matplotlib, argparse
 
 For ARES:
   * [CFITSIO](http://heasarc.nasa.gov/fitsio/fitsio.html)
@@ -73,10 +80,11 @@ For ARES:
   * [The plotutils Package](http://www.gnu.org/software/plotutils/)
   * [gnuplot library](http://www.gnuplot.info/)
 
-All of these are easily installed in many Linux flavour systems with the use of the respective repositories. As an example for UBUNTU:
+All of these are easily installed in many Linux flavour systems with the use of
+the respective repositories. As an example for UBUNTU:
 ```
 sudo apt-get install libcfitsio3-dev gcc libgsl0-dev plotutils gnuplot
 ```
 
-For TMCALC you need to also have cython installed if you want to create a python module to interface with TMCALC.
-
+For TMCALC you need to also have `cython` installed if you want to create a
+python module to interface with TMCALC.
