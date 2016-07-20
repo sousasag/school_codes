@@ -5,6 +5,10 @@ import re
 import numpy as np
 from numpy import linalg
 import matplotlib.pyplot as plt
+try:
+    import seaborn
+except ImportError:
+    pass
 
 
 def read_moog(filenamemoog, linesfe1, linesfe2):
@@ -90,7 +94,7 @@ def plot_graphs(linesfe1, linesfe2):
     ax1.plot(ep[0], ab[0], marker="o", color='b', label=stringin)
     for i in range(1, len(ep)):
         ax1.plot(ep[i], ab[i], marker="o", color='b')
-    ax1.set_ylim([7.02, 8.52])
+    # ax1.set_ylim([7.02, 8.52])
     ax1.set_xlim(0, max(ep))
     ax1.set_xlabel("E.P.")
     ax1.set_ylabel("Ab FeI")
@@ -104,7 +108,7 @@ def plot_graphs(linesfe1, linesfe2):
     for i in range(len(rw)):
         ax2.plot(rw[i], ab[i], marker="o", color='b')
 
-    ax2.set_ylim([7.02, 8.52])
+    # ax2.set_ylim([7.02, 8.52])
     ax2.set_xlim(min(rw), max(rw))
     ax2.set_xlabel("R.W.")
     ax2.set_ylabel("Ab FeI")
@@ -112,8 +116,8 @@ def plot_graphs(linesfe1, linesfe2):
     (w, xline, line) = linear_fit(rw, ab)
     stringin = 'Slope: %.3f' % w[0]
     ax2.plot(xline, line, linestyle='--', color='r', label=stringin)
-    ax1.legend()
-    ax2.legend()
+    ax1.legend(frameon=False)
+    ax2.legend(frameon=False)
     plt.show()
 
 
