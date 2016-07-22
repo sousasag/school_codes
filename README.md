@@ -1,4 +1,5 @@
-# school_codes
+# Azores 2016 summer school
+## Asteroseismology and Exoplanets: Listening to the Stars and Searching for New Worlds
 
 Some useful codes for teaching spectroscopic stellar parameters
 
