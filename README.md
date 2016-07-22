@@ -20,7 +20,7 @@ Some useful codes for teaching spectroscopic stellar parameters
   * [spectra](https://github.com/sousasag/school_codes/tree/master/spectra): A folder wich contains some anonymous test HARPS spectra for the exercises in the class.
 
 
-## Instalation
+## Installation
 
 Simply clone the repository:
 
@@ -44,7 +44,7 @@ cd ..
 Before compiling the codes, make sure to edit line 22 of
 `MOOG2014/Moogsilent.f`, so it match your PATH.
 
-Compile the codes:
+Compile the codes from the root directory:
 
 ```
 make
@@ -66,12 +66,19 @@ use recently and is recommended is with [Ureka](http://ssb.stsci.edu/ureka/)
 
 ## Requirements
 
-These codes were implemented to be used in Linux machines. Each one of those are
-there own requirements. Here is the list of some of the requirements that you
-need to install these codes:
+These codes were implemented to be used on a Linux machines. Here is the list of
+some of the requirements that you need to install these codes in order to make the
+codes running:
 
-Python for the scripts provided. Some typical modules should be available: re,
-numpy, matplotlib, argparse
+For Python
+  * re
+  * numpy
+  * matplotlib
+  * argparse
+  * seaborn (not necessary, but will make the plots look slightly better)
+
+They can all be installed with `pip install numpy matplotlib argparse seaborn`
+
 
 For ARES:
   * [CFITSIO](http://heasarc.nasa.gov/fitsio/fitsio.html)
@@ -82,10 +89,10 @@ For ARES:
   * [gnuplot library](http://www.gnuplot.info/)
 
 All of these are easily installed in many Linux flavour systems with the use of
-the respective repositories. As an example for UBUNTU:
+the respective repositories. As an example for Ubuntu:
 ```
 sudo apt-get install libcfitsio3-dev gcc libgsl0-dev plotutils gnuplot g++ csh
 ```
 
 For TMCALC you need to also have `cython` installed if you want to create a
-python module to interface with TMCALC.
+python module to interface with TMCALC (`pip install cython`).
