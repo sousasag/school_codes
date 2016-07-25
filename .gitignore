@@ -6,3 +6,4 @@ TMCALC/tmcalc.o
 running_dir/a
 running_dir/interpol_moog.com
 *.pyc
+spectra/README.txt
