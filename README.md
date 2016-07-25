@@ -59,7 +59,7 @@ make clean
 
 ##Other useful codes to install:
 
-[IRAF](http://iraf.noao.edu/)
+[IRAF](http://iraf.noao.edu/). A guide for installation at unix can be found [here](http://www.astronomy.ohio-state.edu/~khan/iraf/iraf_step_by_step_installation).
 
 There are several ways to install IRAF on your system. One that has been easy to
 use recently and is recommended is with [Ureka](http://ssb.stsci.edu/ureka/)
