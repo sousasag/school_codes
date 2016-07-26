@@ -39,6 +39,8 @@ def make_lines_moog_file(filename, filename_out, ares_data, linelist_data, llmin
         if len(atomic_data) > 0 and ew < ewmax and ew > ewmin and lambda_ares > llmin and lambda_ares < llmax:
             fileout.write('{: 9.2f}{: 8.1f}{: 12.2f}{: 11.3f}{: 28.1f}\n'.format(float(datai['lambda_rest']), float(atomic_data['atom']), float(atomic_data['EP']), float(atomic_data['loggf']), float(datai['ew'])))
 
+    print 'Saved in: %s' % filename_out
+
 
 # Main program:
 def main():
@@ -49,7 +51,9 @@ def main():
 
     filename_ares = args.ares
     filename_linelist = args.linelist
-    filename_out = 'lines.'+filename_ares
+    filename_out = list(filename_ares.rpartition('/'))
+    filename_out.insert(2, 'lines.')
+    filename_out = ''.join(filename_out)
 
     ares_data = read_ares_file(filename_ares)
     linelist_data = read_linelist_file(filename_linelist)
