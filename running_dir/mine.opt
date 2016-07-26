@@ -1,5 +1,5 @@
 specfits='../spectra/TestA.fits'
-readlinedat='../ultimate_list.dat'
+readlinedat='../ironlines_parameters.dat'
 fileout='TestA.ares'
 lambdai=3600.
 lambdaf=9000.
