@@ -96,3 +96,4 @@ sudo apt-get install libcfitsio3-dev gcc libgsl0-dev plotutils gnuplot g++ csh
 
 For TMCALC you need to also have `cython` installed if you want to create a
 python module to interface with TMCALC (`pip install cython`).
+
