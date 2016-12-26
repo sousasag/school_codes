@@ -25,14 +25,15 @@ def read_moog(filenamemoog, linesfe1, linesfe2):
     feh2 = 0
     for line in filemoog:
         line = line.strip()
-        m = re.search(r'.*Teff= (\d*)\s*log g= (\d*\.\d*)\s*vt= (\d*\.\d*)\s*\[M/H\]=\s*([-\d]\d*\.\d*).*', line)
+        m = re.search(r'.*Teff= (\d*)\s*log g= (\d*\.\d*)\s*vt= (\d*\.\d*)\s*M/H=\s*([-\d]\d*\.\d*).*', line)
+#        m = re.search(r'.*Teff= (\d*)\s*log g= (\d*\.\d*)\s*vt= (\d*\.\d*)\s*\[M/H\]=\s*([-\d]\d*\.\d*).*', line)
         if m:
             teff = m.group(1)
             logg = m.group(2)
             vt = m.group(3)
             feh = m.group(4)
-            print "Parameters:\n----------------------\nTeff logg vtur [Fe/H]\n----------------------"
-            print teff, logg, vt, feh
+            print "Model Parameters: Teff logg vtur [M/H]"
+            print "                  ", teff, logg, vt, feh
         m = re.search(r'Abundance Results for Species (Fe I\s)\.*', line)
         if m:
             flagfe = 1
@@ -70,7 +71,7 @@ def read_moog(filenamemoog, linesfe1, linesfe2):
                 feh2 = float(lines[3])
 
     diff_feh = feh1-feh2
-    return (slope_ep, slope_rw, diff_feh, feh1)
+    return (slope_ep, slope_rw, diff_feh, feh1, feh)
 
 
 def linear_fit(x, y):
@@ -103,7 +104,7 @@ def plot_graphs(linesfe1, linesfe2):
     (w, xline, line) = linear_fit(ep, ab)
     stringin = 'Slope: %.3f' % w[0]
     ax1.plot(xline, line, linestyle='--', color='r', label=stringin)
-    stringin = '<Fe I> - 7.47: %.3f' % (np.mean(ab)-7.47)
+    stringin = '<[Fe/H]>: %.3f' % (np.mean(ab)-7.47)
     ax2.plot(rw[0], ab[0], marker="o", color='b', label=stringin)
     for i in range(len(rw)):
         ax2.plot(rw[i], ab[i], marker="o", color='b')
@@ -132,16 +133,16 @@ def main():
     flagplot = args.plot
     linesfe1 = []
     linesfe2 = []
-    (slope_ep, slope_rw, diff_feh, feh1) = read_moog(filenamemoog, linesfe1, linesfe2)
+    (slope_ep, slope_rw, diff_feh, feh1, feh) = read_moog(filenamemoog, linesfe1, linesfe2)
+    print '-----------------------------'
+    print '|   Slope  E.P. :'+slope_ep
+    print '|   Slope  R.W. :'+slope_rw
+    print '|  Fe I  - Fe II:'+str(diff_feh)
+    print '|      [Fe/H]   :'+str(feh1-7.47)
+    print '| [FE/H] - [M/H]:'+str(feh1-7.47-float(feh))
+    print '-----------------------------'
     if flagplot:
         plot_graphs(linesfe1, linesfe2)
-    else:
-        print '-----------------------------'
-        print '|  Slope  E.P. :'+slope_ep
-        print '|  Slope  R.W. :'+slope_rw
-        print '|  Fe I - Fe II:'+str(diff_feh)
-        print '| <Fe I> - 7.47:'+str(feh1-7.47)
-        print '-----------------------------'
 
 
 if __name__ == "__main__":
