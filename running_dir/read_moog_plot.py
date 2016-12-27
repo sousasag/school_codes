@@ -16,7 +16,7 @@ def read_moog(filenamemoog, linesfe1, linesfe2):
         filemoog = open(filenamemoog, 'r')
     except IOError:
         raise IOError('ERROR: File (%s) not present?' % filenamemoog)
-    print 'Reading the file: ' + filenamemoog
+#    print 'Reading the file: ' + filenamemoog
     flagfe = 0
     slope_ep = 0
     slope_rw = 0
@@ -71,7 +71,8 @@ def read_moog(filenamemoog, linesfe1, linesfe2):
                 feh2 = float(lines[3])
 
     diff_feh = feh1-feh2
-    return (slope_ep, slope_rw, diff_feh, feh1, feh)
+    par = teff, logg, vt, feh
+    return (slope_ep, slope_rw, diff_feh, feh1, par)
 
 
 def linear_fit(x, y):
@@ -82,7 +83,8 @@ def linear_fit(x, y):
     return (w, xline, line)
 
 
-def plot_graphs(linesfe1, linesfe2):
+def plot_graphs(linesfe1, linesfe2, par):
+    (teff, logg, vt, feh) = par
     ep = [float(line.split()[2]) for line in linesfe1]
     rw = [float(line.split()[5]) for line in linesfe1]
     ab = [float(line.split()[6]) for line in linesfe1]
@@ -117,8 +119,14 @@ def plot_graphs(linesfe1, linesfe2):
     (w, xline, line) = linear_fit(rw, ab)
     stringin = 'Slope: %.3f' % w[0]
     ax2.plot(xline, line, linestyle='--', color='r', label=stringin)
-    ax1.legend(frameon=False)
-    ax2.legend(frameon=False)
+    ax1.legend(frameon=False, fontsize=14)
+    ax2.legend(frameon=False, fontsize=14)
+
+    ax1.text(0.05, 0.85, r'Teff: %s  log g: %s  [Fe/H]: %s  $v_{tur}$: %s' % (teff, logg, feh, vt),
+        verticalalignment='bottom', horizontalalignment='left',
+        transform=ax1.transAxes,
+        color='black', fontsize=14)
+    fig.tight_layout()
     plt.show()
 
 
@@ -133,7 +141,8 @@ def main():
     flagplot = args.plot
     linesfe1 = []
     linesfe2 = []
-    (slope_ep, slope_rw, diff_feh, feh1, feh) = read_moog(filenamemoog, linesfe1, linesfe2)
+    (slope_ep, slope_rw, diff_feh, feh1, par) = read_moog(filenamemoog, linesfe1, linesfe2)
+    (teff, logg, vt, feh) = par
     print '-----------------------------'
     print '|   Slope  E.P. :'+slope_ep
     print '|   Slope  R.W. :'+slope_rw
@@ -142,7 +151,7 @@ def main():
     print '| [FE/H] - [M/H]:'+str(feh1-7.47-float(feh))
     print '-----------------------------'
     if flagplot:
-        plot_graphs(linesfe1, linesfe2)
+        plot_graphs(linesfe1, linesfe2, par)
 
 
 if __name__ == "__main__":
